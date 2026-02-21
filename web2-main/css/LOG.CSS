@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(19, 0, 0);
+    color: darkcyan;
+    text-align: center;
+}
+b{
+    display: block;
+}
+input{
+    align-items: center;
+    background-color: bisque;
+}
+button{
+    align-items: center;
+    background-color: brown;
+}
+button:hover{
+    background-color: rgba(165, 42, 42, 0.455);
+    cursor: pointer;
+}
+.menu {
+  margin-top: 60px; 
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 5px 0; 
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu a {
+  color: rgb(255, 153, 0);
+  text-decoration: none;
+  background: none; 
+  padding: 5px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+.top-box {
+  background-color: rgb(25, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 25px;
+}
